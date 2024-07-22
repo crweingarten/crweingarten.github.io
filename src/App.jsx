@@ -23,7 +23,7 @@ function App() {
     </div>
     <div className="bottom-container">
     <div className="copy">fuzzzel is a bespoke ios white noise app and the world&#39;s first artist-centered white noise record label.</div>
-    <div className="copy"> though these sounds are intended to be utilitarian, we offer no preference on how you should experience them.</div>
+    <div className="copy"> although these sounds are intended to be utilitarian, we offer no preference on how you should experience them.</div>
     <div className="copy fuzzBlue"><a href="https://apps.apple.com/ca/app/homestate-a-texas-kitchen/id925093380">get fuzzzel</a></div>
     <div className="copy fuzzBlue"><a href="https://docs.google.com/document/d/17j7ji4mhJHSFeZpM137fevPFvDdav8qoHiwjelQSn2Q/edit?usp=sharing" target="_blank">press release</a></div>
     <div className="copy fuzzBlue"><a href="mailto:fuzzzelnoise@gmail.com">contact</a></div>

@@ -29,24 +29,6 @@ iframe {
   aspect-ratio: 16 / 9;
 }
 
-/* .artist {
-  color: white;
-  font-family: "Arial";
-  letter-spacing: 2px;
-  text-align: 'justify';
-  font-size: 14px;
-  font-weight: 200;
-  opacity: 0.9;
-} */
-
-/* .artistBox {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  height: 100%;
-
-} */
-
 .copy {
   color: white;
   font-family: 'Arial';
