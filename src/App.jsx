@@ -44,7 +44,7 @@ function App() {
     <iframe
       // width="700"
       // height="394"
-      src={`https://www.youtube.com/embed/bf7NbRFyg3Y?si=lY7X4IsNYs84Bdn5`}
+      src={`https://www.youtube.com/embed/NKnWvWmx22I?si=PdNHd3tATvhQ-CGd`}
       // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Fuzzzel Promo"
