@@ -1,25 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import App from './App.jsx'
-import PrivacyPolicy from './PrivacyPolicy.jsx';
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-
-  {path: "/privacy",
-    element: <PrivacyPolicy />}
-]);
+import PrivacyPolicy from './PrivacyPolicy.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+     <HashRouter>
+     <Routes>
+     <Route path="/" element={<App />} />
+     <Route path="/privacy" element={<PrivacyPolicy />} />
+      </Routes>
+      </HashRouter>
   </React.StrictMode>,
 )
